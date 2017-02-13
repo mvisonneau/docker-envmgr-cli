@@ -20,3 +20,9 @@ mvisonneau/envmgrcli {YOUR_ARGS}
 ~$ docker run -it --rm mvisonneau/envmgrcli --version
 1.2.1
 ```
+
+## Build
+
+```
+docker build -t {YOUR_NAME}/envmgrcli .
+```
