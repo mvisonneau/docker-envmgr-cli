@@ -11,12 +11,12 @@ docker run -it --rm \
 -e ENVMGR_USER=user
 -e ENVMGR_PASS=password
 -e ENVMGR_HOST=foo.bar
-mvisonneau/envmgr_cli {YOUR_ARGS}
+mvisonneau/envmgrcli {YOUR_ARGS}
 ```
 
 ## Example
 
 ```
-~$ docker run -it --rm mvisonneau/envmgr_cli --version
+~$ docker run -it --rm mvisonneau/envmgrcli --version
 1.2.1
 ```
